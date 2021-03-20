@@ -1,0 +1,91 @@
+.App{
+    text-align: center;
+}
+
+.inputBox {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+.toggleDarkMode {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    background: none;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.addNoteBtn {
+    background: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.addNoteBtn:hover {
+    background: rgb(101, 116, 202) !important;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.data {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.data > div {
+    max-width: 200px;
+    border: 1px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.data > div:hover {
+    opacity: 0.6;
+}
+
+.data button {
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid;
+}
+
+.data i {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.currData {
+    margin-top: 100px;
+}
+
+.currData > * {
+    padding: 10px;
+}
+
+.currData button {
+    background: none;
+    border: 1px solid;
+}
+
+.dark-theme, .dark-theme * {
+    color: white !important;
+    background: black !important;
+}
